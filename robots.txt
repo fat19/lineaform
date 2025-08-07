@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Allow all major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://fat19.github.io/lineaform/sitemap.xml
+
+# Disallow admin areas (when implemented)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow CSS and JS files
+Allow: /css/
+Allow: /js/
+
+# Crawl delay (optional)
+# Crawl-delay: 1
