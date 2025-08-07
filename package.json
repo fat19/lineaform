@@ -1,0 +1,31 @@
+{
+  "name": "lineaform-studio",
+  "version": "1.0.0",
+  "description": "Luxury architecture studio website - professional portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site ready for deployment'",
+    "preview": "npx serve . --single"
+  },
+  "keywords": [
+    "architecture",
+    "portfolio",
+    "responsive",
+    "luxury",
+    "minimalist",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "LineaForm Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fat19/lineaform.git"
+  },
+  "homepage": "https://fat19.github.io/lineaform/",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
